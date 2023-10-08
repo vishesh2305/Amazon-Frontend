@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <title>Project Amazon</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css">
+</head>
+<body>
+    <!-- HEADER STARTS HERE -->
+    <header>
+    <!-- NAVBAR STARTS HERE -->
+    <div class="navbar">
+        <div class="nav-logo">
+            <div class="logo border"></div>
+        </div>
+            <div class="navbar-address">
+                <div class="navbar-address-content border">
+                    <div class="navbar-address-box-logo">  
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                        <div class="navbar-address-box-text">
+                            <div class="navbar-address-box-first">
+                                <p class="add-first">Deliver to</p>
+                            </div>
+                            <div class="navbar-address-box-second">
+                                <p class="add-second"> <b>  India</b></p>
+                            </div>
+                        </div>
+                </div>
+            </div>      
+            <div class="navbar-search-box-background">
+                <div class="navbar-search-parent-box">
+                <select class="dropdown-box">
+                    <option><p class="dropdown-box-text">All</p></option>
+                </select>
+                <input class="navbar-search-input" type="search" placeholder=" Search Amazon">
+                <button class="navbar-search-button">
+                    <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                </div>
+            </div> 
+
+
+
+         <div class="navbar-right">
+            <div class="navbar-tools">
+                <div class="navbar-nation-box border">
+                    <div class="navbar-nation-box-flag"></div>
+                    <select class="navbar-nation-list">
+                        <option>IN</option>
+                    </select>
+                </div>
+                <div class="navbar-accounts-lists-outer-box">
+                    <div class="account-lists-inner-box border">
+                        <div class="account-signin-box-first"><p class="sign-in-first-box"><a href="#" class="sign-in-first-box">Hello, sign in</a></p>
+                        </div>
+                        <div class="account-sign-in-box-second">
+                        <select class="account-sign-in-lists">
+                            <option>Account & Lists</option>
+                        </select>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="navbar-returns-order-outer-box">
+                    <a href="#" class="navbar-returns-orders-anchor-box">
+                    <div class="navbar-returns-order-inner-box border">
+                        <div class="navbar-returns-order-first-text-box"><p>Returns</p></div>
+                        <div class="navbar-returns-order-second-text-box">& Orders</div>
+                    </div>
+                    </a>
+                </div>
+
+
+                <div class="navbar-cart-logo-background-box">
+                <div class="navbar-cart-logo-outer-box border">
+                    
+                    <i class="fa-solid fa-cart-shopping fa-2xl navbar-cart-logo-outer-box"></i>
+                    <div class="navbar-cart-logo-outer-box-text">
+                        <p class="navbar-cart-logo-outer-box-text">cart</p>
+                    </div>
+                    <div class="navbar-cart-logo-inner-box">
+                    </div>
+                </div>
+                </div>
+            </div>
+         </div>
+    </div>
+     <!-- NAVBAR ENDS HERE -->
+
+
+     <!-- PANEL STARTS HERE -->
+     <div class="panel">
+        <div class="panel-hamburger-icon">
+            <i class="fa-solid fa-bars"></i>
+            <p class="panel-hamburger-text">All</p>
+        </div>
+        <div class="panel-different-deals">
+        <div class="todays-deals border">
+            <a href="#">
+            <p>Today's Deals</p>
+        </a>
+        </div>
+        <div class="customer-service border">
+            <a href="#">
+                <p>Customer Service</p>
+            </a>
+        </div>
+        <div class="registry border">
+            <a href="#">
+                <p>Registry</p>
+            </a>
+        </div>
+        <div class="gift-cards border">
+            <a href="#">
+                <p>Gift Cards</p>
+            </a>
+        </div>
+        <div class="sell border">
+            <a href="#">
+                <p>Sell</p>
+            </a>
+        </div>
+        </div>
+     </div>
+     
+    </header>
+     <!-- PANEL ENDS HERE -->
+
+     <!-- HEADER PART ENDS HERE -->
+
+     <!-- HERO PART STARTS HERE -->
+     <div class="hero-part">
+        <div class="hero-part-notification-bar">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.
+            <a href="#"> Click here to go to amazon.in</a></p>
+        </div>
+     </div>
+
+     <!-- HERO PART ENDS HERE -->
+
+     <!-- SHOP BOX PART STARTS HERE -->
+     <div class="shop-boxes-first-row">
+        <div class="shop-box-1">
+            <div class="shop-box-1-title"><p>Gaming accessories</p></div>
+            
+            <div class="shop-box-1-inner-elements-first-row">
+                <div class="shop-box-1-inner-elements-first-row-first-div">
+                    <div class="shop-box-1-inner-elements-first-row-first-div-first-image"></div>
+                    <p>Headphones</p>
+                </div>
+                <div class="shop-box-1-inner-elements-first-row-second-div">
+                    <div class="shop-box-1-inner-elements-first-row-second-div-first-image"></div>
+                     <p>Keyboards</p>
+                </div>
+            </div>
+            <div class="shop-box-1-inner-elements-second-row">
+                <div class="shop-box-1-inner-elements-second-row-first-div">
+                    <div class="shop-box-1-inner-elements-second-row-first-div-first-image"></div>
+                    <p>Computer Mice</p>
+                </div>
+                <div class="shop-box-1-inner-elements-second-row-second-div">
+                    <div class="shop-box-1-inner-elements-second-row-second-div-first-image"></div>
+                    <p>Chair</p>
+                </div>
+            </div>
+            <p><a href="#">See more</a></p>
+        </div>
+        <div class="shop-box-2">
+            <div class="shop-box-2-title"><p>Toys Under $30 </p></div>
+                <div class="shop-box-2-inner-image"></div>
+                <p><a href="#">Shop now</a></p>
+        </div>
+        <div class="shop-box-3">
+            <div class="shop-box-3-title"><p>Electronics</p></div>
+                <div class="shop-box-3-inner-image"></div>
+                <p><a href="#">See more</a></p>
+        </div>
+        <div class="shop-box-4">
+            <div class="shop-box-4-upper-box">
+                <div class="shop-box-4-upper-box-text"><p>Sign in for the best experience</p></div>
+                <div class="shop-box-4-upper-box-button">
+            <button>Sign in Securely</button></div>
+        </div>
+            <div class="shop-box-4-lower-box"></div>
+        </div>
+    </div>
+    <div class="shop-boxes-row-second">
+        <div class="shop-box-row-second-1">
+            <div class="shop-box-row-second-1-title"><p>Home & Kitchen Under $30</p></div>
+            <div class="shop-box-row-second-1-image"></div>
+            <p><a href="#">Shop now</a></p>
+        </div>
+        <div class="shop-box-row-second-2">
+            <div class="shop-box-row-second-2-title"><p>Health & Personal Care</p></div>
+            <div class="shop-box-row-second-2-image"></div>
+            <p><a href="#">Shop now</a></p>
+        </div>
+        <div class="shop-box-row-second-3">
+            <div class="shop-box-row-second-3-title"><p>Refresh Your Space</p></div>
+            <div class="shop-box-row-second-3-first-row">
+                <div class="shop-box-row-second-3-first-row-first-div">
+                    <div class="shop-box-row-second-3-first-row-first-div-image"></div>
+                    <p>Dining</p>
+                </div>
+                <div class="shop-box-row-second-3-first-row-second-div">
+                    <div class="shop-box-row-second-3-first-row-second-div-image"></div>
+                    <p>Home</p>
+                </div>
+            </div>
+            <div class="shop-box-row-second-3-second-row">
+                <div class="shop-box-row-second-3-second-row-first-div">
+                    <div class="shop-box-row-second-3-second-row-first-div-image"></div>
+                    <p>Kitchen</p>
+                </div>
+                <div class="shop-box-row-second-3-second-row-second-div">
+                    <div class="shop-box-row-second-3-second-row-second-div-image"></div>
+                    <p>Health and Beauty</p>
+                </div>
+            </div>
+            <p><a href="#">See more</a></p>
+        </div>
+        <div class="shop-box-row-second-4">
+            <div class="shop-box-row-second-4-title"><p>Shop deals in fashion</p></div>
+            <div class="shop-box-row-second-4-first-row">
+                <div class="shop-box-row-second-4-first-row-first-div">
+                    <div class="shop-box-row-second-4-first-row-first-div-image"></div>
+                    <p>Jeans Under $50</p>
+                </div>
+                <div class="shop-box-row-second-4-first-row-second-div">
+                    <div class="shop-box-row-second-4-first-row-second-div-image"></div>
+                    <p>Tops Under $25</p>
+                </div>
+            </div>
+            <div class="shop-box-row-second-4-second-row">
+                <div class="shop-box-row-second-4-second-row-first-div">
+                    <div class="shop-box-row-second-4-second-row-first-div-image"></div>
+                    <p>Dresses Under $30</p>
+                </div>
+                <div class="shop-box-row-second-4-second-row-second-div">
+                    <div class="shop-box-row-second-4-second-row-second-div-image"></div>
+                    <p>Shoes Under $50</p>
+                </div>
+            </div>
+            <p><a href="#">See all deals</a></p>
+        </div>
+
+    </div>
+<!-- BOXES PART ENDS HERE -->
+<div class="sign-in-personal-recommendations-outer-div">
+    <br>
+    <br>
+    <div class="sign-in-personal-recommendations-inner-div">
+        <p>See personalized recommendations</p>
+        <button>Sign in</button>
+        <p id="abc123">New Customer ? <a href="#">Start here</a></p>
+    </div>
+    </div>
+</div>
+
+<!-- FOOTER PART STARTS HERE -->
+<footer>
+    <div class="nav-footer-main-div">
+    <div class="nav-footer-1-back-to-top">
+        <p><a href="#">Back to Top</a></p>
+    </div>
+    <div class="nav-footer-main-div-details-text">
+        <ul>
+        <p>Get To Know Us</p>
+        <a>Careers</a>
+        <a>Blog</a>
+        <a>About Amazon</a>
+        <a>Investor Relations</a>
+        <a>Amazon Devices</a>
+        <a>Amazon Science</a>
+    </ul>
+    <ul>
+        <p>Make Money with Us</p>
+        <a>Sell products on Amazon</a>
+        <a>Sell on Amazon Business</a>
+        <a>Sell apps on Amazon</a>
+        <a>Become an Affiliate</a>
+        <a>Adveertise Your Products</a>
+        <a>Self-Publish with Us</a>
+        <a>Host an Amazon Hub</a>
+    </ul>
+    <ul>
+        <p>Amazon Payment Products</p>
+        <a>Amazon Business Card</a>
+        <a>Shop with Points</a>
+        <a>Reload Your Balance</a>
+        <a>Amazon Currency Converter</a>
+    </ul>
+    <ul>
+        <p>Let Us Help You</p>
+        <a>Amazon and COVID-19</a>
+        <a>Your Account</a>
+        <a>Your Orders</a>
+        <a>Shipping Rates & POlicies</a>
+        <a>Returns & Replacements</a>
+        <a>Help</a>
+    </ul>
+
+    </div>
+    <div class="nav-footer-line-div"></div>
+    <div class="nav-footer-pad-line-div">
+        <div class="nav-footer-pad-line-div-logo"></div>
+        <div class="nav-footer-pad-line-div-language">
+            <i class="fa-solid fa-globe" style="color: white;"></i>
+            <p>English</p>
+            <i class="fa-solid fa-sort" style="color: white;"></i>
+        </div>
+        <div class="nav-footer-pad-line-div-currency">
+            <i class="fa-solid fa-dollar-sign" style="color: white;"></i>
+            <p>USD - U.S. Dollar</p>
+        </div>
+        <div class="nav-footer-pad-line-div-country">
+            <div class="nav-footer-pad-line-div-country-flag"></div>
+            <p>India (Bharat)</p>
+        </div>
+    </div>
+    <div class="nav-footer-desc-div">
+        <ul>
+            <a>Conditions of Use</a>
+            <a>Privacy Notice</a>
+            <a>Your Ads Privacy Choices</a>
+        </ul>
+        <div class="nav-footer-desc-div-copyright-license">
+        <i class="fa-solid fa-copyright" style="color: white;"></i>
+        <p>1996-2023, Amazon.com, Inc. or its affiliates</p>
+    </div>
+    </div>
+    </div>
+</footer>
+
+
+    
+</body>
+</html>
